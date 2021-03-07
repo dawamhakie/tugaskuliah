@@ -1,0 +1,19 @@
+public class Lingkaran {
+    double PHI, r, luasLingkaran;
+    
+    Lingkaran(){
+    }
+    Lingkaran(double p, double jr, double luasL){
+        PHI = p;
+        r = jr;
+        luasLingkaran = luasL;
+    }
+    public void tampilLuas(){
+        System.out.println("Jari-jari = " + r);
+        System.out.println("Luas = " + luasLingkaran);
+    }
+            
+    double hitungLuas(double PHI, double r){
+         return PHI * (r * r);
+    }
+}
