@@ -23,6 +23,7 @@ Jawaban
 1. 
 2. Mempuyai fungsi sebagai menyimpan dan mengambil data yang berupa String
 3. <img src = "no3.png">
+4. test
 
 
  
