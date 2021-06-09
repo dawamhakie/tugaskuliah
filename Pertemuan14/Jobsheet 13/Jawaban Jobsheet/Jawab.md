@@ -48,14 +48,3 @@ Posisi left child berada pada indeks ke 1 dan right child berada pada indeks ke 
 ## jawab
 Membuat indeks terakhir di array ke 6
 
-2. Jelaskan cara mengatur indeks pada double linked lists supaya dapat dimulai dari indeks ke1! 
-## jawab
-cara mengatur indeks pada double linked lists supaya dapat dimulai dari indeks ke1 yakni dengan cara melakukan perulangan dan diinisilisasikan index sama dengan 1.
-
-3. Jelaskan perbedaan karakteristik fungsi Add pada Double Linked Lists dan Single Linked Lists! 
-## jawab
-perbedaan karakteristik fungsi Add pada Double Linked Lists dan Single Linked Lists yakni jika pada single linked list operasi terbagi menjadi beberapa fungsi (insertafter, insertbefore, dan insert at), sedangkan pada double linked list menjadi satu fungsi yang berdasarkan indeks. Indeks yang akan ditambahkan dapat disisipkan di awal maupun akhir dari double linked list.
-
-4. Jelaskan perbedaan logika dari kedua kode program di bawah ini!
-## jawab
-Pada gambar A Jika atribut size atau jumlah data bernilai 0, maka akan mereturn true atau kondisi tersebut adalah true.Jika tidak maka kondisi tersebut adalah false. sedangkan pada gambar B Jika head atau data pada index pertama bernilai null, maka kondisi tersebut adalah true.
