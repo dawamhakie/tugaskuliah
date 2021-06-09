@@ -1,0 +1,21 @@
+import java.util.Scanner;
+public class barangMain {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        
+        barang brg = new barang();
+        System.out.print("Masukkan Nama Barang : ");
+        String br = sc.nextLine();
+        System.out.print("Masukkan harga satuan barang : ");
+        int hrg = sc.nextInt();
+        System.out.print("Masukkan Jumlah Barang : ");
+        int jml = sc.nextInt();
+       
+        barang brg1 = new barang(br, hrg, jml);
+        brg1.tampilHarga();
+        
+        barang brg2 = new barang();
+        double n = brg2.hitungHargaTotal(hrg * jml);
+        brg2.hitungDiskon(n);
+    }
+}
